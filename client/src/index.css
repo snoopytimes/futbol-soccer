@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 800px;
+}
+
+.app-wrapper {
+  min-width: 800px;
+}
+
+.league-wrapper {
+  background-color: rgb(155, 228, 188);
+  padding: 10px;
+  margin: 5px;
+}
+
+.league {
+  min-width: 800px;
+}
+
+.league-title {
+  align-items: center;
+  padding: 10px;
+  margin: 5px; 
+}
+
+.fixtures-wrapper {
+  min-width: 800px;
+}
+
+.league-fixture {
+  
+}
+
+.league-fixture-header {
+  background-color: rgb(155, 228, 188);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+
+.fixture {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 0 5px;
+}
+
+.fixture-status {
+  width: 50px;
+}
+
+.fixture-score {
+  width: 50px;
+  text-align: center;
+}
+
+.fixture-away {
+  width: 300px;
+  text-align: right;
+}
+
+.fixture-home {
+  width: 300px;
+  text-align: left;
+}
